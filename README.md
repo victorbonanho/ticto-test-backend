@@ -18,7 +18,7 @@
 ## Arquitetura
 
 - **Model**: Define a estrutura dos dados (neste caso, um cliente).
-- **View**: Não se aplica diretamente, pois esta é uma API, mas em um contexto de frontend, representaria a parte visual.
+- **View**: Não se aplica diretamente, pois esta é uma API, mas em um contexto de frontend, representaria a parte visual que está em next para este projeto.
 - **Controller**: Lida com a lógica de negócios, processa as requisições e interage com o Model.
 
 ## Pré-requisitos
@@ -31,12 +31,12 @@
 
 https:
 
-- git clone https://github.com/victorbonanho/k-test.git
+- git clone https://github.com/victorbonanho/ticto-test-backend.git
 
 ssh:
 
-- git clone git@github.com:victorbonanho/k-test.git
-- cd k-test
+- git@github.com:victorbonanho/ticto-test-backend.git
+- cd ticto-test-backend
 
 2. Instale as dependências:
 
@@ -57,9 +57,9 @@ ssh:
 
 1. npm start ou npm run dev
 
-## DEPLOY - Aplicação em produção diponível
+## DEPLOY - Aplicação se em produção estará diponível em
 
-https://k-test.onrender.com
+https://ticto-test-backend.onrender.com
 
 **Aplicação hospedada no render.com e utilizado docker para melhor compatibilidade**
 
