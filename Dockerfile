@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Comando para iniciar o aplicativo
-CMD ["npx", "tsx", "src/index.ts"]
+CMD ["npm", "start"]
